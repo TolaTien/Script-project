@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+  <link rel="preconnect" href="https://fonts.googleapis.com" >
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin >
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" >
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+  <style>
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Edu+NSW+ACT+Cursive:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Praise&display=swap');
+</style>
+<script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
+  <title>Restaurant</title>
+</head>
+<body>
+  <!--Section: HEADER-->
+  <header class="header">
+    <h1 class="header-title">Res<span>taurant</span></h1>
+    <ul class="header-menu">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#menu">Menus</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="header-menu-toggle">
+      <i class='bx bx-menu'></i>
+      <i class='bx bx-x-circle' ></i>
+    </div>
+  </header>
+
+
+  <!--Section: HOME-->
+  <section id="home" class="section-home section-menu">
+    <div class="section-home-content">
+      <h1 class="section-home-title">
+        Welcome to <span>Restaurant,</span> where Flavor Lives!
+      </h1>
+      <div class="section-home-buttons">
+        <a href="#contact"><button class="home-button" id="primary-button"><span>Contact Us</span></button></a><a href="#menus" class="no-underline"></a>
+        <a href="#menu"><button class="home-button " id="light-button"><span> Explore <i class='bx bx-right-arrow-alt'></i></span></button></a>
+      </div>
+    </div>
+    <img src="Pho.png" alt="" class="section-home-image" />
+  </section>
+
+  <!-- Section Menus -->
+   <section class="section-menus section-menu" id="menu">
+    <h1 class="section-title">Our <span>Menus</span></h1>
+    <p class="section-desc">Ẩm thực đa dạng với những món hàng phong phú
+       đem tới trải nghiệm tuyệt vời dành cho bạn</p>
+    <div class="section-menus_cards">
+      <!-- CARD 1 -->
+       <div class="section-menus_card">
+        <img class="section-menus_card-image" src="pho ga.jpg" alt="">
+        <h3 class="section-menus_card-title">Phở Gà</h3>
+        <div class="section-menus_card-rating">
+          <i class='bx  bxs-star'></i>
+          <i class='bx  bxs-star'></i>
+          <i class='bx  bxs-star'></i>
+          <i class='bx  bxs-star'></i>
+          <i class='bx  bxs-star'></i>
+          <span>5.0</span>
+        </div>
+        <div class="section-menus_card-footer">
+          <h2 class="section-menus_card-price">40.000VND</h2>
+          <button class="section-menus_card-button--buy primary-button">
+            <i class='bx  bxs-cart'></i> 
+          </button>
+        </div>
+       </div>
+       <!-- CARD 2 -->
+       <div class="section-menus_card">
+        <img class="section-menus_card-image" src="bunbohue.jpg" alt="">
+        <h3 class="section-menus_card-title">Phở Bò</h3>
+        <div class="section-menus_card-rating">
+          <i class='bx  bxs-star'></i>
+          <i class='bx  bxs-star'></i>
+          <i class='bx  bxs-star'></i>
+          <i class='bx  bxs-star'></i>
+          <span>4.6</span>
+        </div>
+        <div class="section-menus_card-footer">
+          <h2 class="section-menus_card-price">40.000VND</h2>
+          <button class="section-menus_card-button--buy primary-button">
+            <i class='bx  bxs-cart'></i> 
+          </button>
+        </div>
+       </div>
+       <!-- CARD 3 -->
+       <div class="section-menus_card">
+        <img class="section-menus_card-image" src="buncacay.jpg" alt="">
+        <h3 class="section-menus_card-title">Bún Cá</h3>
+        <div class="section-menus_card-rating">
+          <i class='bx  bxs-star'></i>
+          <i class='bx  bxs-star'></i>
+          <i class='bx  bxs-star'></i>
+          <i class='bx  bxs-star'></i>
+          <span>4.5</span>
+        </div>
+        <div class="section-menus_card-footer">
+          <h2 class="section-menus_card-price">40.000VND</h2>
+          <button class="section-menus_card-button--buy primary-button">
+            <i class='bx  bxs-cart'></i> 
+          </button>
+        </div>
+       </div>
+       <!-- CARD 4 -->
+       <div class="section-menus_card">
+        <img class="section-menus_card-image" src="bunoc.jpg" alt="">
+        <h3 class="section-menus_card-title">Bún Ốc</h3>
+        <div class="section-menus_card-rating">
+          <i class='bx  bxs-star'></i>
+          <i class='bx  bxs-star'></i>
+          <i class='bx  bxs-star'></i>
+          <i class='bx  bxs-star'></i>
+          <i class='bx  bxs-star'></i>
+          <span>5</span>
+        </div>
+        <div class="section-menus_card-footer">
+          <h2 class="section-menus_card-price">35.000VND</h2>
+          <button class="section-menus_card-button--buy primary-button">
+            <i class='bx  bxs-cart'></i> 
+          </button>
+        </div>
+       </div>
+       <!-- CARD 5 -->
+       <div class="section-menus_card">
+        <img class="section-menus_card-image" src="tron.jpg" alt="">
+        <h3 class="section-menus_card-title">Bún Trộn</h3>
+        <div class="section-menus_card-rating">
+          <i class='bx  bxs-star'></i>
+          <i class='bx  bxs-star'></i>
+          <i class='bx  bxs-star'></i>
+          <i class='bx  bxs-star'></i>
+          <span>4.5</span>
+        </div>
+        <div class="section-menus_card-footer">
+          <h2 class="section-menus_card-price">45.000VND</h2>
+          <button class="section-menus_card-button--buy primary-button">
+            <i class='bx  bxs-cart'></i> 
+          </button>
+        </div>
+       </div>
+       <!-- CARD 6 -->
+         <div class="section-menus_card">
+        <img class="section-menus_card-image" src="cahoi.jpg" alt="">
+        <h3 class="section-menus_card-title">Cá Hồi</h3>
+        <div class="section-menus_card-rating">
+          <i class='bx  bxs-star'></i>
+          <i class='bx  bxs-star'></i>
+          <i class='bx  bxs-star'></i>
+          <i class='bx  bxs-star'></i>
+          <i class='bx  bxs-star'></i>
+          <span>5</span>
+        </div>
+        <div class="section-menus_card-footer">
+          <h2 class="section-menus_card-price">350.000VND</h2>
+          <button class="section-menus_card-button--buy primary-button">
+            <i class='bx  bxs-cart'></i> 
+          </button>
+        </div>
+       </div>
+       <!-- CARD 7 -->
+         <div class="section-menus_card">
+        <img class="section-menus_card-image" src="long.jpg" alt="">
+        <h3 class="section-menus_card-title">Lòng Non</h3>
+        <div class="section-menus_card-rating">
+          <i class='bx  bxs-star'></i>
+          <i class='bx  bxs-star'></i>
+          <i class='bx  bxs-star'></i>
+          <i class='bx  bxs-star'></i>
+          <span>4.5</span>
+        </div>
+        <div class="section-menus_card-footer">
+          <h2 class="section-menus_card-price">40.000VND</h2>
+          <button class="section-menus_card-button--buy primary-button">
+            <i class='bx  bxs-cart'></i> 
+          </button>
+        </div>
+       </div>
+       <!-- CARD 8 -->
+         <div class="section-menus_card">
+        <img class="section-menus_card-image" src="moc.jpg" alt="">
+        <h3 class="section-menus_card-title">Bún Mọc Thập Cẩm</h3>
+        <div class="section-menus_card-rating">
+          <i class='bx  bxs-star'></i>
+          <i class='bx  bxs-star'></i>
+          <i class='bx  bxs-star'></i>
+          <i class='bx  bxs-star'></i>
+          <i class='bx  bxs-star'></i>
+          <span>5</span>
+        </div>
+        <div class="section-menus_card-footer">
+          <h2 class="section-menus_card-price">40.000VND</h2>
+          <button class="section-menus_card-button--buy primary-button">
+            <i class='bx  bxs-cart'></i> 
+          </button>
+        </div>
+       </div>
+    </div>
+
+   </section>
+
+   <!-- End section Menus -->
+
+
+<!--Section About-->
+     <section id="about" class="section-about section-menu">
+    <img src="1.png" alt="Pasta" class="section-about-image">
+    <div class="section-about-content">
+      <h1 class="section-title">About <span>Us</span></h1>
+      <p class="section-desc">
+        <a href="https://www.facebook.com/ohuy.745431" class="section-about-link">
+          Hoàng Quốc Việt Restaurant </a>          
+          <a href="https://www.facebook.com/ohuy.745431" class="section-about-link">
+            </a>
+            là điểm đến lý tưởng để sum họp bên gia đình, bạn bè và
+             thưởng thức những món ăn mang đậm bản sắc Việt.</p>
+      <div class="section-about-stats">
+        <div class="section-about-stat">
+          <h1 class="section-about-stat-number">3+</h1>
+          <div class="section-about-stat-text">
+            <span class="section-about-stat-desc">Years of</span>
+            <h3 class="section-about-stat-title">EXPERIENCE</h3>
+          </div>
+        </div>
+        <div class="section-about-stat">
+          <h1 class="section-about-stat-number">15</h1>
+          <div class="section-about-stat-text">
+            <span class="section-about-stat-desc">Best</span>
+            <h3 class="section-about-stat-title">FOODS</h3>
+          </div>
+        </div>
+      </div>
+        <a href="#portfolio"><button class="home-button" id="learn-button"><span>Learn More <i class='bx bx-right-arrow-alt'></i></span></button></a> 
+
+    </div>
+    <img src="2.png" class="section-about-image-background-1" alt="">
+    <img src="3.png" class="section-about-image-background-2" alt="">
+  </section>
+  <!--End section About-->
+
+  
+  <!--Section Portfolio-->
+  <section id='portfolio' class="section-portfolio section-menu">
+    <h1 class="section-title">Đầu <span>Bếp</span> của chúng tôi</h1>
+    <div class="section-portfolio-cards">
+
+      <div class="section-portfolio-card">
+        <div class="section-portfoilio-img">
+            <img src="avt.jpg" alt="user-image" class="profile-img">
+        </div>
+        <h2>Khổng Anh Duy</h2>
+        <p>Bếp Phó</p>
+       <div class="section-portfoilio-icons">
+  <a class="section-portfoilio-icon" href="https://www.facebook.com/khong.duy.100046/" target="_blank">
+    <box-icon  name="facebook-circle" type="logo"></box-icon>
+  </a>
+  <a class="section-portfoilio-icon" href="https://www.instagram.com/kad.17._/" target="_blank">
+    <box-icon  name="instagram" type="logo"></box-icon>
+  </a>
+  <a class="section-portfoilio-icon" href="https://github.com/Kadmt" target="_blank">
+    <box-icon  name="github" type="logo"></box-icon>
+  </a>
+    </div>
+        <button class="home-button portfolio-button"><span>Message</span></button>
+    </div>
+
+     <div class="section-portfolio-card">
+        <div class="section-portfoilio-img">
+            <img src="Huy.jpg" alt="user-image" class="profile-img">
+        </div>
+        <h2>Đỗ Quốc Huy</h2>
+        <p>Master</p>
+       <div class="section-portfoilio-icons">
+  <a class="section-portfoilio-icon" href="https://www.facebook.com/khong.duy.100046/" target="_blank">
+    <box-icon  name="facebook-circle" type="logo"></box-icon>
+  </a>
+  <a class="section-portfoilio-icon" href="https://www.instagram.com/kad.17._/" target="_blank">
+    <box-icon  name="instagram" type="logo"></box-icon>
+  </a>
+  <a class="section-portfoilio-icon" href="https://github.com/Kadmt" target="_blank">
+    <box-icon  name="github" type="logo"></box-icon>
+  </a>
+    </div>
+        <button class="home-button portfolio-button"><span>Message</span></button>
+    </div>
+
+     <div class="section-portfolio-card">
+        <div class="section-portfoilio-img">
+            <img src="Tien.jpg" alt="user-image" class="profile-img">
+        </div>
+        <h2>Lê Văn Tiến</h2>
+        <p>Phụ Bếp</p>
+       <div class="section-portfoilio-icons">
+  <a class="section-portfoilio-icon" href="https://www.facebook.com/khong.duy.100046/" target="_blank">
+    <box-icon  name="facebook-circle" type="logo"></box-icon>
+  </a>
+  <a class="section-portfoilio-icon" href="https://www.instagram.com/kad.17._/" target="_blank">
+    <box-icon  name="instagram" type="logo"></box-icon>
+  </a>
+  <a class="section-portfoilio-icon" href="https://github.com/Kadmt" target="_blank">
+    <box-icon  name="github" type="logo"></box-icon>
+  </a>
+    </div>
+        <button class="home-button portfolio-button"><span>Message</span></button>
+    </div>
+
+     <div class="section-portfolio-card">
+        <div class="section-portfoilio-img">
+            <img src="Tuyen.jpg" alt="user-image" class="profile-img">
+        </div>
+        <h2>Trịnh Duy Tuyen</h2>
+        <p>Phụ Bếp</p>
+       <div class="section-portfoilio-icons">
+  <a class="section-portfoilio-icon" href="https://www.facebook.com/khong.duy.100046/" target="_blank">
+    <box-icon  name="facebook-circle" type="logo"></box-icon>
+  </a>
+  <a class="section-portfoilio-icon" href="https://www.instagram.com/kad.17._/" target="_blank">
+    <box-icon  name="instagram" type="logo"></box-icon>
+  </a>
+  <a class="section-portfoilio-icon" href="https://github.com/Kadmt" target="_blank">
+    <box-icon  name="github" type="logo"></box-icon>
+  </a>
+    </div>
+        <button class="home-button portfolio-button"><span>Message</span></button>
+    </div>
+
+  
+  </div>
+
+ </section>
+
+  <!--End Section Portfolio-->
+
+
+  <!--Section: Services-->
+  <section id="services" class="section-services section-menu">
+    <h1 class="section-title">Dịch<span> vụ</span></h1>
+    <p class="section-desc">Thăng hoa vị giác với 300+ món nhậu đặc sắc, lẩu nướng, hải sản được chuẩn bị từ những đầu bếp chuyên nghiệp hàng đầu.</p>
+    <div class="section-services__cards">
+      <div class="section-services__card">
+        <div class="section-services__card-icon">
+          <i class="bx bx-bowl-hot"></i>
+        </div>
+        <h1 class="section-services__card-title">Dịch vụ ăn tối</h1>
+        <p>🍽️ Thưởng thức món ăn trong không gian ấm cúng, phục vụ tận tình tại chỗ.</p>
+      </div>
+      <div class="section-services__card">
+        <div class="section-services__card-icon">
+          <i class="bx bx-package"></i>
+        </div>
+        <h1 class="section-services__card-title">Đặt hàng & Vận chuyển</h1>
+        <p>📦 Đặt món nhanh chóng – Giao tận nơi, tiện lợi mọi lúc mọi nơi.</p>
+      </div>
+      <div class="section-services__card">
+        <div class="section-services__card-icon">
+          <i class="bx bx-calendar-event"></i>
+        </div>
+        <h1 class="section-services__card-title">Sự kiện & phục vụ</h1>
+        <p>🎉 Phục vụ tiệc tùng chuyên nghiệp – Đặt tiệc dễ dàng, tổ chức chu đáo.</p>
+      </div>
+    </div>
+  </section>
+
+  <!--Section: Contact-->
+  <section class="section-contact section-menu" id="contact">
+    <div class="section-contact__info">
+      <h1 class="section-title">Liên <span> Hệ</span></h1>
+      <p class="section-desc">Nhằm mang đến những trải nghiệm tuyệt vời nhất, mọi ý kiến,đóng góp của thực khách sẽ được nhà hàng phản hồi trực tiếp và sớm nhất.</p>
+
+      <div class="section-contact__info-items">
+        <div class="section-contact__info-item">
+          <div class="section-contact__info-item-icon">
+            <i class="bx bxs-location-plus"></i>
+          </div>
+          <a class="section-contact__info-item-link" href="https://maps.app.goo.gl/sRaVuiManaABZBzJA">
+            122 Hoàng Quốc Việt, Cầu Giấy, Hà Nội, Việt Nam, Asia, Earth</a>
+        </div>
+
+        <div class="section-contact__info-item">
+          <div class="section-contact__info-item-icon">
+            <i class="bx bxl-instagram"></i>
+          </div>
+          <a class="section-contact__info-item-link" href="https://www.facebook.com/cunhancntt.ptit">@Restaurant</a>
+        </div>
+
+        <div class="section-contact__info-item">
+          <div class="section-contact__info-item-icon">
+            <i class="bx bxl-facebook"></i>
+          </div>
+          <a
+            class="section-contact__info-item-link"
+            href="https://www.facebook.com/ohuy.745431"
+            >Hoàng Quốc Việt Restaurant</a
+          >
+        </div>
+      </div>
+
+      <!-- Nút hiển thị form -->
+      <button  class="section-contact__form-button secondary-button"  onclick="Hienthi()" style="margin-left: 200px; margin-top: 20px">
+        <span>Đặt bàn</span>
+      </button>
+    </div>
+
+    <!-- FORM ĐẶT BÀN - ĐẶT TRONG .section-contact -->
+    <form class="section-contact__form" id="bookingForm" style="display: none" onsubmit="xulyform(event)">
+      <h2 class="form-title" style="color: white">Đặt bàn</h2>
+      <input type="text" class="text-field" id="name" placeholder="Tên của bạn" required><br><br>
+      <input type="tel" class="text-field" id="phone" placeholder="Số điện thoại" required><br><br>
+      <select class="text-field" id="location" required>
+        <option value="" disabled selected>-- Lựa chọn cơ sở --</option>
+        <option value="cs1">Cơ sở Hà Đông </option>
+        <option value="cs2">Cơ sở Cầu Giấy</option>
+      </select><br><br>
+
+      <input type="number" class="text-field" id="guests" placeholder="Số lượng khách" min="1" required><br><br>
+      <input type="date" class="text-field" id="date" required ><br><br>
+      <input type="time" class="text-field" id="time" required><br><br>
+      <textarea class="text-field text-field--textarea" id="note" placeholder="Ghi chú" rows="3"></textarea><br><br>
+      <button type="submit" class="section-contact__form-button">
+        <span>Xác Nhận</span>
+      </button>
+    </form>
+  </section>
+
+  <script>
+    function Hienthi() {
+      const form = document.getElementById("bookingForm");
+      if (form) {
+        form.style.display = form.style.display === "none" ? "block" : "none";
+      }
+    }
+
+    function xulyform(event) {
+      event.preventDefault();
+
+      const data = {
+        name: document.getElementById("name").value,
+        phone: document.getElementById("phone").value,
+        location: document.getElementById("location").value,
+        guests: document.getElementById("guests").value,
+        date: document.getElementById("date").value,
+        time: document.getElementById("time").value,
+        note: document.getElementById("note").value,
+      };
+
+      alert("Cảm ơn bạn! Thông tin đã được ghi nhận.");
+
+      event.target.reset();
+      event.target.style.display = "none";
+    }
+  </script>
+
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script>
+    ScrollReveal({
+      reset: true,
+      delay: 300,
+      distance: "60px",
+      duration: 1500,
+    });
+
+    ScrollReveal().reveal(".section-title", {
+      delay: 555,
+      duration: 1500,
+      origin: "top",
+    });
+
+    ScrollReveal().reveal(".section-services__card", {
+      delay: 200,
+      interval: 200,
+      origin: "bottom",
+    });
+
+    ScrollReveal().reveal(".section-contact__info-item", {
+      delay: 900,
+      interval: 300,
+    });
+    ScrollReveal().reveal(".section-desc", {
+      delay: 900,
+      interval: 300,
+      origin: "top"
+    });
+    ScrollReveal().reveal(".section-menus_card", {
+      delay: 800,
+      interval: 300,
+      origin: "top"
+    });
+    ScrollReveal().reveal(".section-about-image", {
+      delay: 900,
+      interval: 300,
+      origin: "left"
+    });
+    ScrollReveal().reveal(".section-about-stats", {
+      delay: 900,
+      interval: 300,
+      origin: "top"
+    });
+     ScrollReveal().reveal(".section-about-image-background-1", {
+      delay: 900,
+      interval: 300,
+      origin: "right"
+    });
+    ScrollReveal().reveal(".section-about-image-background-2", {
+      delay: 900,
+      interval: 300,
+      origin: "right"
+    });
+    ScrollReveal().reveal(".section-portfolio-cards", {
+      delay: 900,
+      interval: 300,
+      origin: "top"
+    }); 
+  </script>
+
+  <!--FOOTER-->
+  <footer class="footer">
+    <h1 class="footer__title">Resta<span>urant</span></h1>
+    <ul class="footer__menu">
+      <li class="footer-menu"><a href="#home" class="">Home</a></li>
+      <li class="footer-menu"><a href="#menu" class="">Menu</a></li>
+      <li class="footer-menu"><a href="#about" class="">About</a></li>
+      <li class="footer-menu"><a href="#services" class="">Services</a></li>
+      <li class="footer-menu"><a href="#contact" class="">Contact</a></li>
+    </ul>
+    <div class="footer__divider"></div>
+    <p class="footer__copyright">
+      &copy; 2025 Restaurant. All rights reserved. | Crafted by Team A
+    </p>
+  </footer>
+
+  <!--END FOOTER-->
+</body>
+<script>
+  const headerMenutoggle = document.querySelector(".header-menu-toggle")
+  const headerMenu = document.querySelector(".header-menu")
+  headerMenutoggle.addEventListener("click", () => {
+  headerMenu.classList.toggle("active"); 
+
+    
+  })
+
+
+</script>
+</html>
